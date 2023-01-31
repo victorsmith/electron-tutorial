@@ -1,0 +1,16 @@
+{
+  "name": "electron-tutorial",
+  "version": "1.0.0",
+  "description": "Electron tutorial",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron src/main",
+    "dev": "nodemon src/main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "victorsmith",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^22.1.0"
+  }
+}
